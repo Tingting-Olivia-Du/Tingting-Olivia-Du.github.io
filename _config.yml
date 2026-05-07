@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Tingting Du"
+title                    : "Tingting Du's Homepage"
 title_separator          : "-"
 name                     : &name "Tingting Du"
 description              : &description "Computer Science & Mathematics student at UW-Madison, researching Vision-Language-Action models and LLM reasoning"

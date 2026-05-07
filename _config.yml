@@ -26,7 +26,7 @@ author:
   avatar           : "bio-photo.jpg"
   name             : "Tingting Du"
   pronouns         : # example: "she/her"
-  bio              : "CS & Math student at UW-Madison researching Vision-Language-Action models and interpretability of LLM reasoning. Previously at UC Berkeley, University of Maryland, and Notre Dame. Interested in building intelligent robotic systems that understand and interact with the physical world."
+  bio              : "CS & Math student at UW-Madison researching Vision-Language-Action models and LLM reasoning."
   location         : "Madison, WI"
   employer         : "University of Wisconsin-Madison"
   uri              : # URL

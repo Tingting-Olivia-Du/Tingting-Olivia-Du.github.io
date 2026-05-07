@@ -57,6 +57,6 @@ Analyzing how humans develop ad-hoc conventions in collaborative environments, i
 Feel free to reach out for research discussions or collaborations!
 
 **Email**: tdu35 [at] wisc [dot] edu
-**Office**: University of Wisconsin-Madison, Madison, WI
 
-You can also find me on [GitHub](https://github.com/tingtingdu), [LinkedIn](https://www.linkedin.com/in/olivia-tingting-du/), and [Google Scholar](https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en).
+
+You can also find me on [GitHub](https://github.com/Tingting-Olivia-Du), [LinkedIn](https://www.linkedin.com/in/olivia-tingting-du/), and [Google Scholar](https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en).

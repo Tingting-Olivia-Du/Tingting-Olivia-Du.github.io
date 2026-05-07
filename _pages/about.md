@@ -9,7 +9,7 @@ redirect_from:
 
 ## 🎓 About Me
 
-I am a **B.S. student in Computer Science and Mathematics** at the [University of Wisconsin-Madison](https://www.wisc.edu/), advised by [Prof. Yiqiao Zhong](https://stat.wisc.edu/staff/zhong-yiqiao/). Before that, I was a visiting student in Computer Science at [UC Berkeley](https://www.berkeley.edu/), and received training in Linguistics at [Ningbo University](https://www.nbu.edu.cn/).
+I am a **B.S. student in Computer Science and Mathematics** at the [University of Wisconsin-Madison](https://www.wisc.edu/). Before that, I was a visiting student in Computer Science at [UC Berkeley](https://www.berkeley.edu/), and received training in Linguistics at [Ningbo University](https://www.nbu.edu.cn/).
 
 I have been fortunate to collaborate with researchers at **University of Maryland, College Park** (working with [Prof. Ang Li](https://www.ang-li.com/) on Vision-Language-Action models), **University of Notre Dame** (working with [Prof. Meng Jiang](http://www.meng-jiang.com/) on student modeling and question generation), and **Berkeley Artificial Intelligence Research** (working with [Prof. Alane Suhr](https://alanesuhr.com/) on situated language understanding).
 

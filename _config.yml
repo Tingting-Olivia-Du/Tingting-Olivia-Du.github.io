@@ -13,10 +13,10 @@ title                    : "Tingting Du"
 title_separator          : "-"
 name                     : &name "Tingting Du"
 description              : &description "Computer Science & Mathematics student at UW-Madison, researching Vision-Language-Action models and LLM reasoning"
-url                      : https://tingtingdu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://tingting-olivia-du.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Tingting-Olivia-Du/tingtingdu.github.io"
+repository               : "Tingting-Olivia-Du/Tingting-Olivia-Du.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

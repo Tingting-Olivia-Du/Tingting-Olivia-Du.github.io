@@ -1,48 +1,62 @@
 ---
 permalink: /
-title: "About Me"
+title: "Tingting Du"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a Computer Science and Mathematics student at the University of Wisconsin-Madison (expected graduation: May 2027), currently working on cutting-edge research in Vision-Language-Action (VLA) models and Large Language Model reasoning. My research interests lie at the intersection of robotics, multimodal learning, and artificial intelligence.
+## 🎓 About Me
 
-## Research Experience
+I am a **B.S. student in Computer Science and Mathematics** at the [University of Wisconsin-Madison](https://www.wisc.edu/), advised by [Prof. Yiqiao Zhong](https://stat.wisc.edu/staff/zhong-yiqiao/). Before that, I was a visiting student in Computer Science at [UC Berkeley](https://www.berkeley.edu/), and received training in Linguistics at [Ningbo University](https://www.nbu.edu.cn/).
 
-I am fortunate to work with exceptional researchers across multiple institutions:
+I have been fortunate to collaborate with researchers at **University of Maryland, College Park** (working with [Prof. Ang Li](https://www.ang-li.com/) on Vision-Language-Action models), **University of Notre Dame** (working with [Prof. Meng Jiang](http://www.meng-jiang.com/) on student modeling and question generation), and **Berkeley Artificial Intelligence Research** (working with [Prof. Alane Suhr](https://alanesuhr.com/) on situated language understanding).
 
-- **University of Maryland, College Park** (Jan 2026 - Present): Working with Prof. Ang Li on Vision-Language-Action models with shared projector frameworks, developing novel approaches to bridge 2D and 3D representations.
+I am broadly interested in building **intelligent robotic systems** that can understand and interact with the physical world. My research focuses on:
 
-- **University of Wisconsin-Madison** (Sep 2025 - Jan 2026): Collaborated with Prof. Yiqiao Zhong on interpretability of LLM reasoning via RLVR training, developing frameworks to understand how language models correct logical errors.
+- **Vision-Language-Action (VLA) models** for robotic manipulation and control
+- **Large Language Model reasoning** and interpretability
+- **Multimodal learning** bridging vision, language, and action
 
-- **University of Notre Dame** (Jul 2024 - Jan 2025): Worked with Prof. Meng Jiang on student modeling for question generation, resulting in a publication at ACL 2025.
+## 🔬 Research Interests
 
-- **Berkeley Artificial Intelligence Research** (Feb 2024 - Jun 2024): Analyzed situated language use and ad-hoc convention formation with Prof. Alane Suhr.
+My research focuses on developing **collaborative, efficient, and trustworthy** machine learning systems for robotics, spanning:
 
-## Education
+### Vision-Language-Action Models
+Developing architectures that bridge 2D visual perception, 3D spatial understanding, and robotic action generation. My work on multi-layer shared projector frameworks aims to improve spatial reasoning in VLA systems.
 
-- **B.S. in Computer Science and Mathematics**, University of Wisconsin-Madison (2025-2027)
-  - GPA: 3.86/4.00, Dean's List
-  - Relevant coursework: Autonomous Robotics, Operating Systems, Artificial Neural Networks
+**Selected work:**
+- **ROCKET** (arXiv 2026): Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models
+- **VLA Survey** (TMLR 2026): Comprehensive analysis of datasets, benchmarks, and data engines for Vision-Language-Action in robotics
 
-- **Visiting Student in Computer Science**, UC Berkeley (2023-2024)
-  - GPA: 3.77/4.00, Berkeley Global Access Scholarship
-  - Relevant coursework: Real Analysis, Data Structures, Algorithms, Introduction to AI
+### LLM Reasoning & Interpretability
+Understanding how large language models correct logical errors during training, using token-level analysis to pinpoint where and how reasoning improvements emerge.
 
-- **Undergraduate in Linguistics**, Ningbo University (2021-2023)
-  - GPA: 3.80/4.00, Zhejiang Provincial Scholarship (Top 3%, 2×)
+**Selected work:**
+- Developed interpretability frameworks using token-level KL-divergence for RLVR training analysis
+- Published work on question generation and student modeling at **ACL 2025**
 
-## Publications
+### Grounded Language Understanding
+Analyzing how humans develop ad-hoc conventions in collaborative environments, informing more natural human-AI interaction.
 
-My research has been published in top-tier venues including ACL and ICML workshops. Please see my [Publications](/publications/) page for details.
+**Selected work:**
+- Characterized language use in collaborative situated games (arXiv 2025)
+- Agent KB: Hierarchical memory framework for cross-domain problem solving (**ICML 2025 Workshop**)
 
-## Technical Skills
+## 📰 Recent News
 
-- **Programming Languages**: Python, Java, C++, JavaScript, TypeScript, SQL, Julia, R, Assembly
-- **Frameworks & Tools**: ROS 2, PyTorch, Hugging Face Transformers, vLLM, PEFT/LoRA, Docker, Linux, AWS
+- **Apr 2026**: Our VLA survey paper accepted to **TMLR**!
+- **Feb 2026**: ROCKET paper on arxiv, manuscript in submission to ICML
+- **Jan 2025**: QG-SMS paper accepted to **ACL 2025**!
+- **Dec 2024**: Characterized language use paper on arxiv
+- **Jun 2024**: Completed research internship at Berkeley AI Research
 
-## Contact
+## 📫 Contact
 
-Feel free to reach out via email at [tdu35@wisc.edu](mailto:tdu35@wisc.edu). You can also find me on [GitHub](https://github.com/tingtingdu), [LinkedIn](https://www.linkedin.com/in/olivia-tingting-du/), and [Google Scholar](https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en).
+Feel free to reach out for research discussions or collaborations!
+
+**Email**: tdu35 [at] wisc [dot] edu
+**Office**: University of Wisconsin-Madison, Madison, WI
+
+You can also find me on [GitHub](https://github.com/tingtingdu), [LinkedIn](https://www.linkedin.com/in/olivia-tingting-du/), and [Google Scholar](https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en).

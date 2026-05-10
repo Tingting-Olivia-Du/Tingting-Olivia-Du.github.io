@@ -1,7 +1,7 @@
 ---
 title: "Characterizing Language Use in a Collaborative Situated Game"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2025-situated-language
 excerpt: 'This paper analyzes situated language use and ad-hoc convention formation within a large-scale corpus collected from a virtual 3D environment.'
 date: 2025-01-02

@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a **B.S. student in Computer Science and Mathematics** at the **University of Wisconsin-Madison**. Before that, I was a visiting student in Computer Science at **UC Berkeley**, and received training in Linguistics at **Ningbo University**.
+I am a **B.S. student in Computer Science ** at the **University of Wisconsin-Madison**. Before that, I was a visiting student in Computer Science at **UC Berkeley**, and received training in Linguistics at **Ningbo University**.
 
 I have been fortunate to collaborate with researchers at **University of Maryland, College Park** (working with [Prof. Ang Li](https://www.ang-li.com/) on Vision-Language-Action models), **University of Notre Dame** (working with [Prof. Meng Jiang](http://www.meng-jiang.com/) on student modeling and question generation), and **Berkeley Artificial Intelligence Research** (working with [Prof. Alane Suhr](https://alanesuhr.com/) on situated language understanding).
 
@@ -38,7 +38,7 @@ My research focuses on building **intelligent robotic systems** that can underst
 ## Updates
 
 - **2026.04:** Our VLA survey paper accepted to **TMLR**!
-- **2026.02:** ROCKET paper on arXiv, manuscript in submission to ICML.
+- **2026.02:** ROCKET paper on arXiv.
 - **2025.01:** QG-SMS paper accepted to **ACL 2025**!
 - **2024.12:** Characterized language use paper on arXiv.
 - **2024.06:** Completed research internship at Berkeley AI Research.
@@ -49,7 +49,7 @@ My research focuses on building **intelligent robotic systems** that can underst
 
 - **University of Wisconsin-Madison**
   *Present – Expected 2027*  
-  B.S. in Computer Science and Mathematics
+  B.S. in Computer Science
 - **University of California, Berkeley**
   *2023 – 2024*  
   Visiting Student in Computer Science

@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a **B.S. student in Computer Science ** at the **University of Wisconsin-Madison**. Before that, I was a visiting student in Computer Science at **UC Berkeley**, and received training in Linguistics at **Ningbo University**.
+I am a **B.S. student in Computer Science at the University of Wisconsin-Madison**. Before that, I was a visiting student in Computer Science at **UC Berkeley**, and received training in Linguistics at **Ningbo University**.
 
 I have been fortunate to collaborate with researchers at **University of Maryland, College Park** (working with [Prof. Ang Li](https://www.ang-li.com/) on Vision-Language-Action models), **University of Notre Dame** (working with [Prof. Meng Jiang](http://www.meng-jiang.com/) on student modeling and question generation), and **Berkeley Artificial Intelligence Research** (working with [Prof. Alane Suhr](https://alanesuhr.com/) on situated language understanding).
 

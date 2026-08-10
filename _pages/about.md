@@ -59,25 +59,4 @@ My research focuses on building **intelligent robotic systems** that can underst
 
 ---
 
-## Publications
-
-### 2026
-- *ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models*  
-  G. Sun, **T. Du**, K. Feng, C. Luo, X. Ding, Z. Shen, Z. Wang, Y. He, A. Li.  
-  arXiv preprint arXiv:2602.17951, 2026. DOI: [10.48550/arXiv.2602.17951](https://doi.org/10.48550/arXiv.2602.17951)
-- *Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines*  
-  Z. Wang, B. Wang, H. Zhang, **T. Du**, T. Chen, G. Sun, Y. He, Z. Shen, W. Ye, A. Li.  
-  Transactions on Machine Learning Research (TMLR), 2026. DOI: [10.48550/arXiv.2604.23001](https://doi.org/10.48550/arXiv.2604.23001)
-
-### 2025
-- *QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation*  
-  B. Nguyen, **T. Du**, M. Yu, L. Angrave, M. Jiang.  
-  Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL).
-- *Characterizing Language Use in a Collaborative Situated Game*  
-  N. Tomlin, N. Zhou, E. Fleisig, L. Chen, T. Wright, L. Vinh, L.X. Ma, S. Eisape, **T. Du**, T. Zhang, A. Koller, A. Suhr.  
-  arXiv preprint arXiv:2512.03381, 2025. DOI: [10.48550/arXiv.2512.03381](https://doi.org/10.48550/arXiv.2512.03381)
-- *Agent KB: A Hierarchical Memory Framework for Cross-Domain Agentic Problem Solving*  
-  X. Tang, T. Qin, T. Peng, Z. Zhou, D. Shao, **T. Du**, X. Wei, H. Zhu, G. Zhang, et al.  
-  ICML 2025 Workshop on Collaborative and Federated Agentic Workflows.
-
 <span style="opacity:0.75;">Last updated: {{ site.time | date: "%Y-%m-%d" }}</span>

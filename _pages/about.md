@@ -40,7 +40,7 @@ My research focuses on building **intelligent robotic systems** that can underst
 - **2026.04:** Our VLA survey paper accepted to **TMLR**!
 - **2026.02:** ROCKET paper on arXiv.
 - **2025.01:** QG-SMS paper accepted to **ACL 2025**!
-- **2024.12:** Characterized language use paper on arXiv.
+- **2025.12:** Characterized language use paper on arXiv.
 - **2024.06:** Completed research internship at Berkeley AI Research.
 
 ---

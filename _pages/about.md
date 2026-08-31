@@ -138,8 +138,7 @@ redirect_from:
   I am an undergraduate at the <strong>University of Wisconsin&ndash;Madison</strong>, studying
   Computer Science and Mathematics. Before Madison I was a visiting student in Computer Science
   at <strong>UC Berkeley</strong>, and I began my studies in Linguistics at
-  <strong>Ningbo University</strong> &mdash; a route into language that still shapes how I think
-  about grounding instructions in the physical world.
+  <strong>Ningbo University</strong>.
 </p>
 
 <p>

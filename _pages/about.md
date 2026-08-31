@@ -24,8 +24,8 @@ redirect_from:
   </ul>
   <div class="btn-row">
     <a class="ui-btn ui-btn--primary" href="{{ '/files/CV_TingtingDu_UW_Madison.pdf' | relative_url }}"><i class="fas fa-file-lines"></i> Curriculum Vitae</a>
-    <a class="ui-btn" href="https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-    <a class="ui-btn" href="https://github.com/tingtingdu"><i class="fab fa-github"></i> GitHub</a>
+    <a class="ui-btn" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+    <a class="ui-btn" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i> GitHub</a>
     <a class="ui-btn" href="mailto:tdu35@wisc.edu"><i class="fas fa-envelope"></i> Email</a>
   </div>
 </div>
@@ -198,15 +198,15 @@ redirect_from:
   </li>
   <li>
     <span class="timeline__date">2026.02</span>
-    <strong>ROCKET</strong> released on arXiv; manuscript in submission to ICML.
+    <strong>ROCKET</strong> released on arXiv.
+  </li>
+  <li>
+    <span class="timeline__date">2025.12</span>
+    Collaborative situated game paper released on arXiv.
   </li>
   <li>
     <span class="timeline__date">2025.01</span>
     <strong>QG-SMS</strong> accepted to <strong>ACL 2025</strong>.
-  </li>
-  <li>
-    <span class="timeline__date">2024.12</span>
-    Collaborative situated game paper released on arXiv.
   </li>
   <li>
     <span class="timeline__date">2024.06</span>

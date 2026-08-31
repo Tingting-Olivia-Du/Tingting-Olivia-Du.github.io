@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 **Email:** tdu35 [at] wisc [dot] edu  
-**Google Scholar:** [link](https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en) · **LinkedIn:** [link](https://www.linkedin.com/in/olivia-tingting-du/) · **GitHub:** [tingtingdu](https://github.com/tingtingdu)  
+**Google Scholar:** [link](https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en) · **LinkedIn:** [link](https://www.linkedin.com/in/olivia-tingting-du/) · **GitHub:** [Tingting-Olivia-Du](https://github.com/Tingting-Olivia-Du)  
 **Updated:** {{ site.time | date: "%Y-%m-%d" }}
 
 [Download CV (PDF)](/files/CV_TingtingDu_UW_Madison.pdf)

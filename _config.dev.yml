@@ -5,4 +5,7 @@
 #
 #   bundle exec jekyll serve --config _config.yml,_config.dev.yml
 #
+# Browse via http://localhost:PORT, not 127.0.0.1: `jekyll serve` rewrites asset
+# URLs to localhost, and the mismatched origin makes the browser treat the icon
+# webfonts as cross-origin and refuse them (icons render as empty boxes).
 url: "http://127.0.0.1:4000"

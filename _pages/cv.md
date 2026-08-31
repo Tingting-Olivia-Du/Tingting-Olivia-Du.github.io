@@ -44,9 +44,13 @@ redirect_from:
 
 ## Research
 
-- **Vision-Language-Action Model Research** · University of Maryland, College Park (Jan. 2026 – Present)  
+- **Trimanual Manipulation** · University of Wisconsin-Madison (Aug. 2026 – Present)  
+  Advisor: Prof. Mike Hagenow, Robot Teaching and Teaming (RT²) Lab  
+  Learning coordinated three-arm manipulation policies from demonstration, using synchronized multi-view perception over long-horizon, contact-rich tasks.
+
+- **Vision-Language-Action Model Research** · University of Maryland, College Park (Jan. 2026 – Aug. 2026)  
   Advisor: Prof. Ang Li  
-  Architected a multi-layer shared projector framework to bridge 2D and 3D representations in VLA models. Manuscript in submission to ICML.
+  Architected a multi-layer shared projector framework to bridge 2D and 3D representations in VLA models.
 
 - **Interpretability of LLM Reasoning** · University of Wisconsin-Madison (Sep. 2025 – Jan. 2026)  
   Advisor: Prof. Yiqiao Zhong  

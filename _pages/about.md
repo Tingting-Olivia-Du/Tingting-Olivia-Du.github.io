@@ -223,7 +223,7 @@ redirect_from:
       <span class="pub-title">ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models</span>
     </div>
     <p class="pub-authors">G. Sun, <strong>T. Du</strong>, K. Feng, C. Luo, X. Ding, Z. Shen, Z. Wang, Y. He, A. Li</p>
-    <p class="pub-venue-line">arXiv:2602.17951 &middot; in submission to ICML</p>
+    <p class="pub-venue-line">arXiv:2602.17951</p>
     <div class="link-row">
       <a href="https://arxiv.org/abs/2602.17951"><i class="ai ai-arxiv"></i> arXiv</a>
       <a href="https://doi.org/10.48550/arXiv.2602.17951"><i class="fas fa-link"></i> DOI</a>

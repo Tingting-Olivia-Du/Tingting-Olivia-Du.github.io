@@ -284,7 +284,7 @@ redirect_from:
 
 <ul class="edu-list">
   <li>
-    <span class="edu-list__when">2024 &ndash; 2027</span>
+    <span class="edu-list__when">Jan 2025 &ndash; May 2027</span>
     <span class="edu-list__what">
       <strong>University of Wisconsin&ndash;Madison</strong>
       <span>B.S. in Computer Science and Mathematics (expected)</span>

@@ -17,7 +17,7 @@ redirect_from:
 
 ## Education
 
-- **B.S.**, Computer Science and Mathematics, University of Wisconsin-Madison (Expected 2027)  
+- **B.S.**, Computer Science and Mathematics, University of Wisconsin-Madison (Jan 2025 – May 2027, expected)  
   GPA: 3.86/4.00 · Honors: College of Letters & Science Dean's List
 - **Visiting Student**, Computer Science, University of California, Berkeley (2023 – 2024)  
   GPA: 3.77/4.00 · Honors: Berkeley Global Access Scholarship

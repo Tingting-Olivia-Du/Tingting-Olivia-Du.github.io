@@ -6,72 +6,88 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can find the full publist on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <p class="section-note">
+    A full list is also available on
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  </p>
 {% endif %}
 
 {% comment %}
-  兼容字段：
-  - 图片: post.teaser / post.header.teaser / post.thumbnail / post.image
-  - 作者: post.authors (string 或 array)，或 post.author (string)
+  Tolerated front-matter shapes:
+    teaser  : post.teaser / post.header.teaser / post.thumbnail / post.image
+    authors : a string, an array of strings, or an array of {name, url}
 {% endcomment %}
+
+<ul class="pub-list">
 {% for post in site.publications reversed %}
-{% assign teaser = post.teaser | default: post.header.teaser | default: post.thumbnail | default: post.image %}
+  {% assign teaser = post.teaser | default: post.header.teaser | default: post.thumbnail | default: post.image %}
 
-<article class="archive__item" style="margin-bottom:1.25rem;">
-  <div style="display:flex; gap:16px; align-items:flex-start">
-    {% if teaser %}
-      <a href="{{ post.url | relative_url }}" style="flex:0 0 180px; display:block;">
-        <img src="{{ teaser | relative_url }}" alt="{{ post.title | escape }}" style="width:180px; height:auto;">
-      </a>
-    {% endif %}
-
-    <div style="flex:1">
-      <h2 style="margin:0 0 4px; font-size:1.25rem;">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-
-      {%- comment -%} 作者渲染（字符串 / 数组 / 对象数组都支持） {%- endcomment -%}
-      {% assign authors_html = "" %}
-      {% if post.authors %}
-        {% if post.authors.first or post.authors.size %}
-          {# authors 是数组 #}
-          {% assign parts = "" | split: "" %}
-          {% for a in post.authors %}
-            {% if a.name %}
-              {% if a.url %}{% assign parts = parts | push: '<a href="' | append: a.url | append: '">' | append: a.name | append: '</a>' %}{% else %}{% assign parts = parts | push: a.name %}{% endif %}
-            {% else %}
-              {% assign parts = parts | push: a %}
-            {% endif %}
-          {% endfor %}
-          {% assign authors_html = parts | join: ", " %}
+  {% assign authors_html = "" %}
+  {% if post.authors %}
+    {% if post.authors.first %}
+      {% assign parts = "" | split: "" %}
+      {% for a in post.authors %}
+        {% if a.name %}
+          {% if a.url %}
+            {% assign parts = parts | push: '<a href="' | append: a.url | append: '">' | append: a.name | append: '</a>' %}
+          {% else %}
+            {% assign parts = parts | push: a.name %}
+          {% endif %}
         {% else %}
-          {# authors 是字符串 #}
-          {% assign authors_html = post.authors | markdownify | strip_newlines | replace: '<p>','' | replace: '</p>','' %}
+          {% assign parts = parts | push: a %}
         {% endif %}
-      {% elsif post.author %}
-        {% assign authors_html = post.author %}
+      {% endfor %}
+      {% assign authors_html = parts | join: ", " %}
+    {% else %}
+      {% assign authors_html = post.authors %}
+    {% endif %}
+  {% elsif post.author %}
+    {% assign authors_html = post.author %}
+  {% endif %}
+  {% capture self_bold %}<strong>{{ site.author.name }}</strong>{% endcapture %}
+  {% assign authors_html = authors_html | replace: site.author.name, self_bold %}
+
+  <li>
+    <div class="pub-list__media">
+      {% if teaser %}
+        <a class="pub-list__thumb" href="{{ post.url | relative_url }}">
+          <img src="{{ teaser | relative_url }}" alt="{{ post.title | escape }}" loading="lazy" decoding="async">
+        </a>
       {% endif %}
 
-      {% if authors_html != "" %}
-        <div style="margin:2px 0 6px;">{{ authors_html }}</div>
-      {% endif %}
+      <div class="pub-list__text">
+        <div class="pub-list__top">
+          <span class="venue">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+          <span class="pub-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></span>
+        </div>
 
-      {% if post.venue %}
-        <div style="font-style:italic; margin-bottom:6px;">{{ post.venue }}</div>
-      {% endif %}
+        {% if authors_html != "" %}
+          <p class="pub-authors">{{ authors_html }}</p>
+        {% endif %}
 
-      {% if post.excerpt %}
-        <div style="margin-bottom:6px;">{{ post.excerpt }}</div>
-      {% endif %}
+        {% if post.venue %}
+          <p class="pub-venue-line">{{ post.venue }}</p>
+        {% endif %}
 
-      {%- comment -%} 方括号链接 {%- endcomment -%}
-      {% capture links %}{% endcapture %}
-      {% if post.paperurl %}{% capture links %}{{ links }}[<a href="{{ post.paperurl }}">paper</a>]{% endcapture %}{% endif %}
-      {% if post.projecturl %}{% capture links %}{{ links }}{% if links != '' %} / {% endif %}[<a href="{{ post.projecturl }}">project page</a>]{% endcapture %}{% endif %}
-      {% if post.code %}{% capture links %}{{ links }}{% if links != '' %} / {% endif %}[<a href="{{ post.code }}">code</a>]{% endcapture %}{% endif %}
-      {% if post.dataseturl %}{% capture links %}{{ links }}{% if links != '' %} / {% endif %}[<a href="{{ post.dataseturl }}">dataset</a>]{% endcapture %}{% endif %}
-      {% if links != '' %}<div>{{ links }}</div>{% endif %}
+        {% if post.excerpt %}
+          <p class="pub-excerpt">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</p>
+        {% endif %}
+
+        {% assign has_links = false %}
+        {% if post.paperurl or post.projecturl or post.code or post.dataseturl or post.bibtexurl %}
+          {% assign has_links = true %}
+        {% endif %}
+        {% if has_links %}
+          <div class="link-row">
+            {% if post.paperurl %}<a href="{{ post.paperurl }}"><i class="fas fa-file-lines"></i> Paper</a>{% endif %}
+            {% if post.projecturl %}<a href="{{ post.projecturl }}"><i class="fas fa-globe"></i> Project</a>{% endif %}
+            {% if post.code %}<a href="{{ post.code }}"><i class="fab fa-github"></i> Code</a>{% endif %}
+            {% if post.dataseturl %}<a href="{{ post.dataseturl }}"><i class="fas fa-database"></i> Dataset</a>{% endif %}
+            {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}"><i class="fas fa-quote-left"></i> BibTeX</a>{% endif %}
+          </div>
+        {% endif %}
+      </div>
     </div>
-  </div>
-</article>
+  </li>
 {% endfor %}
+</ul>

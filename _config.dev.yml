@@ -1,0 +1,8 @@
+# Local development overrides.
+#
+# The theme builds asset URLs from `site.url`, so without this a local preview
+# silently loads the *published* CSS/JS instead of your working copy. Serve with:
+#
+#   bundle exec jekyll serve --config _config.yml,_config.dev.yml
+#
+url: "http://127.0.0.1:4000"

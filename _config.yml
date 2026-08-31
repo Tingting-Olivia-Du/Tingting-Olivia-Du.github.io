@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Tingting Du's Homepage"
 title_separator          : "-"
 name                     : &name "Tingting Du"
-description              : &description "Computer Science & Mathematics student at UW-Madison, researching Vision-Language-Action models and LLM reasoning"
+description              : &description "Computer Science & Mathematics student at UW-Madison. Robot learning, trimanual manipulation, and Vision-Language-Action models."
 url                      : https://tingting-olivia-du.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Tingting-Olivia-Du/Tingting-Olivia-Du.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "bio-photo.jpg"
   name             : "Tingting Du"
   pronouns         : # example: "she/her"
-  bio              : "CS & Math senior student at UW-Madison<br>tdu35 [at] wisc [dot] edu"
+  bio              : "CS &amp; Math undergrad<br>Robot learning &middot; RT&sup2; Lab"
   location         : "Madison, WI"
-  employer         : "University of Wisconsin-Madison"
+  employer         : "UW-Madison"
   uri              : # URL
   email            : "tdu35@wisc.edu"
 
@@ -139,7 +139,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 : "/assets/media/trimanual-poster.jpg"  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles

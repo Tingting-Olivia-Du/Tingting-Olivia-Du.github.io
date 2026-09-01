@@ -18,6 +18,10 @@
 
   --container-max: 1200px;
   --container-pad: 24px;
+  /* Sidebar column carved out of #main's content box, in px on purpose --
+     see the layout rules for why a percentage cannot work here. */
+  --sidebar-w: 240px;
+  --sidebar-gap: 24px;
 
   --accent: #c5050c;
   --accent-hover: #9b1226;
@@ -185,11 +189,22 @@ html body .layout--home .page__inner-wrap {
   max-width: none !important;
 }
 
-/* The stock theme reserves 2/12 of empty gutter on the right; reclaim it. */
+/* From 1024px up the theme makes .sidebar `position: fixed`, so its percentage
+   width resolves against the viewport while .page keeps sizing itself against
+   the capped 1200px #main. On a wide monitor the sidebar therefore grows past
+   the gutter reserved for it and slides underneath the body text. Reserving
+   that gutter in pixels decouples the two columns from the viewport, and also
+   reclaims the 2/12 of empty gutter the stock theme leaves on the right. */
 @media screen and (min-width: 64em) {
+  html body .sidebar {
+    width: var(--sidebar-w) !important;
+    max-width: none !important;
+  }
+
   html body .page {
+    width: 100% !important;
     padding-right: 0 !important;
-    padding-left: 1.75rem !important;
+    padding-left: calc(var(--sidebar-w) + var(--sidebar-gap)) !important;
   }
 }
 

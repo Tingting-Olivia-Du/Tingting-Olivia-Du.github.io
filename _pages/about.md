@@ -60,7 +60,7 @@ redirect_from:
         <span>Wrist &middot; 2</span>
         <span>Wrist &middot; 3</span>
       </div>
-      <span class="demo-media__live">Episode 0003</span>
+      <span class="demo-media__live">Episode 0011</span>
       <button class="demo-media__play" type="button" aria-label="Pause demo"></button>
     </figure>
 

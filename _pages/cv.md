@@ -26,6 +26,9 @@ redirect_from:
 
 ## Publications
 
+- *XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation*  
+  **T. Du**, Z. Wang, G. Sun, A. Li.  
+  arXiv preprint arXiv:2610.03516, 2026. DOI: [10.48550/arXiv.2610.03516](https://doi.org/10.48550/arXiv.2610.03516)
 - *Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines*  
   Z. Wang, B. Wang, H. Zhang, **T. Du**, T. Chen, G. Sun, Y. He, Z. Shen, W. Ye, A. Li.  
   Transactions on Machine Learning Research (TMLR), 2026. DOI: [10.48550/arXiv.2604.23001](https://doi.org/10.48550/arXiv.2604.23001)
@@ -50,7 +53,7 @@ redirect_from:
 
 - **Vision-Language-Action Model Research** · University of Maryland, College Park (Jan. 2026 – Aug. 2026)  
   Advisor: Prof. Ang Li  
-  Architected a multi-layer shared projector framework to bridge 2D and 3D representations in VLA models.
+  First-authored XGenAct, a world action model that trains RGB, actions, depth, normals, and role segmentation as RGB videos with one video diffusion transformer. Also worked on multi-layer alignment to bridge 2D and 3D representations in VLA models (ROCKET).
 
 - **Interpretability of LLM Reasoning** · University of Wisconsin-Madison (Sep. 2025 – Jan. 2026)  
   Advisor: Prof. Yiqiao Zhong  
@@ -68,4 +71,4 @@ redirect_from:
 
 - **Programming Languages:** Python, Java, C++, JavaScript, TypeScript, LaTeX, Julia, R, SQL, Assembly
 - **Frameworks & Tools:** ROS 2, Hugging Face Transformers, PyTorch, vLLM, PEFT/LoRA, Docker, Linux, AWS
-- **Research Areas:** Vision-Language-Action Models, Large Language Model Reasoning, Robotics and Autonomous Systems
+- **Research Areas:** World Action Models, Vision-Language-Action Models, Robotics and Autonomous Systems, Large Language Model Reasoning

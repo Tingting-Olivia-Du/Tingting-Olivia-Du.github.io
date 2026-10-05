@@ -90,6 +90,51 @@ redirect_from:
     <header class="demo-card__head">
       <span class="demo-card__index">02</span>
       <div class="demo-card__titles">
+        <h3 class="demo-card__title">XGenAct &mdash; Geometry-Enhanced World Action Models</h3>
+        <p class="demo-card__meta">
+          First author &middot; arXiv 2026 &middot; with the <a href="https://www.ang-li.com/">CASE Lab</a>,
+          University of Maryland
+        </p>
+      </div>
+    </header>
+
+    <figure class="demo-media demo-media--figure">
+      <img
+        src="{{ '/images/demos/xgenact-method.png' | relative_url }}"
+        width="1800" height="1391" loading="lazy" decoding="async"
+        alt="XGenAct method: RGB, depth, role segmentation, normals, and actions encoded as RGB videos; a shared DiT trained with one loss; inference that generates future RGB and action images.">
+      <span class="demo-media__zoom"><i class="fas fa-expand"></i> Click to enlarge</span>
+    </figure>
+
+    <div class="demo-card__body">
+      <p>
+        World action models predict the next pixels and the next actions, but that is not
+        the same as understanding space. XGenAct turns RGB, metric depth, surface normals,
+        functional role segmentation, and robot actions into RGB videos through fixed codecs,
+        then trains <em>one</em> video diffusion transformer with one objective by sampling
+        those tasks. No modality-specific heads. On held-out RLBench tasks this raises
+        closed-loop success from 26% (strongest evaluated baseline) to 52%.
+      </p>
+      <div class="demo-card__footer">
+        <ul class="tag-row">
+          <li>World action models</li>
+          <li>Cross-task generation</li>
+          <li>Geometry &amp; depth</li>
+          <li>Video diffusion</li>
+        </ul>
+        <div class="link-row">
+          <a href="https://arxiv.org/abs/2610.03516"><i class="ai ai-arxiv"></i> arXiv</a>
+          <a href="{{ '/files/xgenact_method.pdf' | relative_url }}"><i class="fas fa-file-pdf"></i> Overview</a>
+          <a href="{{ '/publication/2026-xgenact' | relative_url }}"><i class="fas fa-arrow-up-right-from-square"></i> Details</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="demo-card reveal">
+    <header class="demo-card__head">
+      <span class="demo-card__index">03</span>
+      <div class="demo-card__titles">
         <h3 class="demo-card__title">ROCKET &mdash; Spatially-Aware Vision-Language-Action Models</h3>
         <p class="demo-card__meta">
           arXiv 2026 &middot; with the <a href="https://www.ang-li.com/">CASE Lab</a>,
@@ -146,7 +191,7 @@ redirect_from:
   in the <a href="https://wisc-rt2.github.io/">Robot Teaching and Teaming (RT&sup2;) Lab</a> at
   UW&ndash;Madison on <strong>trimanual manipulation</strong>. Previously I worked with
   <a href="https://www.ang-li.com/">Prof. Ang Li</a> in the <strong>CASE Lab</strong> at the
-  University of Maryland on Vision-Language-Action models, with
+  University of Maryland on world action models and Vision-Language-Action models, with
   <a href="http://www.meng-jiang.com/">Prof. Meng Jiang</a> at the
   <strong>University of Notre Dame</strong> on student modeling and question generation, and with
   <a href="https://alanesuhr.com/">Prof. Alane Suhr</a> at
@@ -158,10 +203,10 @@ redirect_from:
 <div class="topic-grid">
   <div class="topic-card reveal">
     <span class="topic-card__icon"><i class="fas fa-cube"></i></span>
-    <h3>Vision-Language-Action Models</h3>
+    <h3>World Action &amp; VLA Models</h3>
     <p>
-      Giving policies a sense of 3D space and scale, and understanding what the data
-      and benchmarks behind them actually measure.
+      Training one model to predict RGB, actions, and geometry over time, so policies
+      pick up 3D structure instead of treating pixels as the whole story.
     </p>
   </div>
   <div class="topic-card reveal">
@@ -186,10 +231,15 @@ redirect_from:
 
 <ul class="timeline">
   <li class="is-new">
+    <span class="timeline__date">2026.10</span>
+    <strong>XGenAct</strong>, my first-author paper on geometry-enhanced world action models,
+    is on <a href="https://arxiv.org/abs/2610.03516">arXiv</a>.<span class="timeline__new">New</span>
+  </li>
+  <li>
     <span class="timeline__date">2026.08</span>
     Joined the <a href="https://wisc-rt2.github.io/">RT&sup2; Lab</a> at UW&ndash;Madison with
     <a href="https://www.cs.wisc.edu/staff/hagenow-mike/">Prof. Mike Hagenow</a>, working on
-    <strong>trimanual manipulation</strong>.<span class="timeline__new">New</span>
+    <strong>trimanual manipulation</strong>.
   </li>
   <li>
     <span class="timeline__date">2026.04</span>
@@ -216,6 +266,19 @@ redirect_from:
 ## Publications
 
 <ul class="pub-list">
+  <li>
+    <div class="pub-list__top">
+      <span class="venue">arXiv 2026</span>
+      <span class="pub-title">XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation</span>
+    </div>
+    <p class="pub-authors"><strong>T. Du</strong>, Z. Wang, G. Sun, A. Li</p>
+    <p class="pub-venue-line">arXiv:2610.03516</p>
+    <div class="link-row">
+      <a href="https://arxiv.org/abs/2610.03516"><i class="ai ai-arxiv"></i> arXiv</a>
+      <a href="https://doi.org/10.48550/arXiv.2610.03516"><i class="fas fa-link"></i> DOI</a>
+      <a href="{{ '/publication/2026-xgenact' | relative_url }}"><i class="fas fa-arrow-up-right-from-square"></i> Details</a>
+    </div>
+  </li>
   <li>
     <div class="pub-list__top">
       <span class="venue">arXiv 2026</span>

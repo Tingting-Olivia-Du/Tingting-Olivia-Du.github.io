@@ -137,7 +137,7 @@ redirect_from:
       <div class="demo-card__titles">
         <h3 class="demo-card__title">ROCKET &mdash; Spatially-Aware Vision-Language-Action Models</h3>
         <p class="demo-card__meta">
-          arXiv 2026 &middot; with the <a href="https://www.ang-li.com/">CASE Lab</a>,
+          NeurIPS 2026 &middot; with the <a href="https://www.ang-li.com/">CASE Lab</a>,
           University of Maryland
         </p>
       </div>
@@ -168,6 +168,7 @@ redirect_from:
         </ul>
         <div class="link-row">
           <a href="https://arxiv.org/abs/2602.17951"><i class="ai ai-arxiv"></i> arXiv</a>
+          <a href="https://github.com/CASE-Lab-UMD/ROCKET-VLA"><i class="fab fa-github"></i> Code</a>
           <a href="{{ '/files/rocket_overview.pdf' | relative_url }}"><i class="fas fa-file-pdf"></i> Overview</a>
           <a href="{{ '/publication/2026-rocket' | relative_url }}"><i class="fas fa-arrow-up-right-from-square"></i> Details</a>
         </div>
@@ -236,6 +237,10 @@ redirect_from:
     is on <a href="https://arxiv.org/abs/2610.03516">arXiv</a>.<span class="timeline__new">New</span>
   </li>
   <li>
+    <span class="timeline__date">2026.09</span>
+    <strong>ROCKET</strong> accepted to <strong>NeurIPS 2026</strong>.
+  </li>
+  <li>
     <span class="timeline__date">2026.08</span>
     Joined the <a href="https://wisc-rt2.github.io/">RT&sup2; Lab</a> at UW&ndash;Madison with
     <a href="https://www.cs.wisc.edu/staff/hagenow-mike/">Prof. Mike Hagenow</a>, working on
@@ -244,10 +249,6 @@ redirect_from:
   <li>
     <span class="timeline__date">2026.04</span>
     Our Vision-Language-Action survey was accepted to <strong>TMLR</strong>.
-  </li>
-  <li>
-    <span class="timeline__date">2026.02</span>
-    <strong>ROCKET</strong> released on arXiv.
   </li>
   <li>
     <span class="timeline__date">2025.12</span>
@@ -281,13 +282,14 @@ redirect_from:
   </li>
   <li>
     <div class="pub-list__top">
-      <span class="venue">arXiv 2026</span>
+      <span class="venue">NeurIPS 2026</span>
       <span class="pub-title">ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models</span>
     </div>
     <p class="pub-authors">G. Sun, <strong>T. Du</strong>, K. Feng, C. Luo, X. Ding, Z. Shen, Z. Wang, Y. He, A. Li</p>
-    <p class="pub-venue-line">arXiv:2602.17951</p>
+    <p class="pub-venue-line">Advances in Neural Information Processing Systems</p>
     <div class="link-row">
       <a href="https://arxiv.org/abs/2602.17951"><i class="ai ai-arxiv"></i> arXiv</a>
+      <a href="https://github.com/CASE-Lab-UMD/ROCKET-VLA"><i class="fab fa-github"></i> Code</a>
       <a href="https://doi.org/10.48550/arXiv.2602.17951"><i class="fas fa-link"></i> DOI</a>
       <a href="{{ '/publication/2026-rocket' | relative_url }}"><i class="fas fa-arrow-up-right-from-square"></i> Details</a>
     </div>

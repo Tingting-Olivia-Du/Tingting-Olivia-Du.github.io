@@ -34,7 +34,7 @@ redirect_from:
   Transactions on Machine Learning Research (TMLR), 2026. DOI: [10.48550/arXiv.2604.23001](https://doi.org/10.48550/arXiv.2604.23001)
 - *ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models*  
   G. Sun, **T. Du**, K. Feng, C. Luo, X. Ding, Z. Shen, Z. Wang, Y. He, A. Li.  
-  arXiv preprint arXiv:2602.17951, 2026. DOI: [10.48550/arXiv.2602.17951](https://doi.org/10.48550/arXiv.2602.17951)
+  Advances in Neural Information Processing Systems (NeurIPS), 2026. DOI: [10.48550/arXiv.2602.17951](https://doi.org/10.48550/arXiv.2602.17951)
 - *QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation*  
   B. Nguyen, **T. Du**, M. Yu, L. Angrave, M. Jiang.  
   Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025.

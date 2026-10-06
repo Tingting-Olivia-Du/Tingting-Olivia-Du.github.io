@@ -53,7 +53,7 @@ redirect_from:
         src="{{ '/files/episode_0007_grid.mp4' | relative_url }}"
         poster="{{ '/files/episode_0007_grid.jpg' | relative_url }}"
         muted loop playsinline preload="none"
-        aria-label="Four synchronized camera views of a trimanual robot rearranging coloured blocks on a pegboard"></video>
+        aria-label="Four synchronized camera views of three robot arms collaborating with a human to assemble a pillow block"></video>
       <div class="demo-media__grid-labels">
         <span>Scene</span>
         <span>Wrist &middot; 1</span>
@@ -66,12 +66,7 @@ redirect_from:
 
     <div class="demo-card__body">
       <p>
-        A single recorded episode, played back across the four synchronized camera streams the
-        policy sees: one scene overview plus a wrist view per arm. Three coordinating arms
-        rearrange coloured blocks across pegboards &mdash; a setting where the hard part is not
-        the individual grasp but keeping three end-effectors, three viewpoints, and one shared
-        workspace consistent over a long horizon. I also wired a unified emergency-stop
-        interlock so all three arms share one safety circuit.
+        Three robot arms collaborate with a human to assemble a pillow block.
       </p>
       <div class="demo-card__footer">
         <ul class="tag-row">

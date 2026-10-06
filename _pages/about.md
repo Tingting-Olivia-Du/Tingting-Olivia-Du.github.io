@@ -50,8 +50,8 @@ redirect_from:
 
     <figure class="demo-media demo-media--video">
       <video
-        src="{{ '/assets/media/trimanual-episode.mp4' | relative_url }}"
-        poster="{{ '/assets/media/trimanual-poster.jpg' | relative_url }}"
+        src="{{ '/files/episode_0007_grid.mp4' | relative_url }}"
+        poster="{{ '/files/episode_0007_grid.jpg' | relative_url }}"
         muted loop playsinline preload="none"
         aria-label="Four synchronized camera views of a trimanual robot rearranging coloured blocks on a pegboard"></video>
       <div class="demo-media__grid-labels">
@@ -60,7 +60,7 @@ redirect_from:
         <span>Wrist &middot; 2</span>
         <span>Wrist &middot; 3</span>
       </div>
-      <span class="demo-media__live">Episode 0011</span>
+      <span class="demo-media__live">Episode 0007</span>
       <button class="demo-media__play" type="button" aria-label="Pause demo"></button>
     </figure>
 

@@ -1,109 +1,221 @@
 {
   "basics": {
-    "name": "Ziyao Wang",
-    "email": "ziyaow@umd.edu",
+    "name": "Tingting Du",
+    "label": "Computer Science and Mathematics undergraduate at UW–Madison",
+    "email": "tdu35@wisc.edu",
     "phone": "",
-    "website": "https://ziyaow1010.github.io",
-    "summary": "ECE PhD Student, University of Maryland, College Park",
+    "website": "https://tingting-olivia-du.github.io/",
+    "summary": "Robot learning researcher working on trimanual manipulation, human–robot collaboration, Vision-Language-Action models, and LLM reasoning.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Madison",
       "countryCode": "US",
-      "region": ""
+      "region": "Wisconsin"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=_PdzpfAAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://scholar.google.com/citations?user=j1rY310AAAAJ"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/ziyaow1010"
+        "username": "Tingting-Olivia-Du",
+        "url": "https://github.com/Tingting-Olivia-Du"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "olivia-tingting-du",
+        "url": "https://www.linkedin.com/in/olivia-tingting-du/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "RT² Lab, University of Wisconsin–Madison",
+      "position": "Trimanual Manipulation Research",
+      "website": "https://wisc-rt2.github.io/",
+      "startDate": "2026-08",
+      "endDate": "Present",
+      "summary": "Advisor: Prof. Mike Hagenow",
+      "highlights": [
+        "Learning from demonstration for trimanual human–robot team manipulation.",
+        "Wired a unified emergency-stop interlock tying all three arms to a single safety circuit."
+      ]
+    },
+    {
+      "company": "CASE Lab, University of Maryland",
+      "position": "Vision-Language-Action and World Action Models",
+      "website": "https://www.ang-li.com/",
+      "startDate": "2025-11",
+      "endDate": "2026-08",
+      "summary": "Advisor: Prof. Ang Li",
+      "highlights": [
+        "Developed multi-layer shared projection for aligning 2D and 3D representations in VLA models (ROCKET, NeurIPS 2026).",
+        "First-authored XGenAct, a geometry-enhanced world action model.",
+        "Deployed and evaluated both systems on real-world manipulation with a UFACTORY xArm."
+      ]
+    },
+    {
+      "company": "DM² Lab, University of Notre Dame",
+      "position": "Student Modeling for Question Generation",
+      "website": "http://www.meng-jiang.com/",
+      "startDate": "2024-07",
+      "endDate": "2025-01",
+      "summary": "Advisor: Prof. Meng Jiang",
+      "highlights": [
+        "Developed a student modeling approach for question generation (ACL 2025)."
+      ]
+    },
+    {
+      "company": "Berkeley Artificial Intelligence Research",
+      "position": "Situated Language Use and Convention Formation",
+      "website": "https://alanesuhr.com/",
+      "startDate": "2024-02",
+      "endDate": "2024-06",
+      "summary": "Advisor: Prof. Alane Suhr",
+      "highlights": [
+        "Analyzed ad-hoc convention formation in a large 3D-environment dialogue corpus."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "University of Maryland, College Park",
-      "area": "Ph.D in Electrical and Computer Engineering",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2028",
-      "gpa": null,
+      "institution": "University of Wisconsin–Madison",
+      "area": "B.S. in Computer Science and Mathematics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2025-01",
+      "endDate": "2027-05 (expected)",
+      "gpa": "3.86/4.00",
+      "courses": [
+        "Autonomous Robotics",
+        "Operating Systems",
+        "Neural Networks"
+      ]
+    },
+    {
+      "institution": "University of California, Berkeley",
+      "area": "Visiting Student in Computer Science",
+      "studyType": "Visiting Student",
+      "startDate": "2023-08",
+      "endDate": "2024-06",
+      "gpa": "3.77/4.00",
+      "courses": [
+        "Real Analysis",
+        "Data Structures",
+        "Algorithms",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "institution": "Ningbo University",
+      "area": "Undergraduate studies in Linguistics",
+      "studyType": "Undergraduate",
+      "startDate": "2021-09",
+      "endDate": "2023-06",
+      "gpa": "3.80/4.00",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Robotics",
+      "level": "",
+      "keywords": [
+        "ROS 2",
+        "UFACTORY xArm",
+        "Multi-arm workcell bring-up and safety integration",
+        "Onshape CAD",
+        "3D printing"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": [
+        "PyTorch",
+        "Hugging Face Transformers",
+        "vLLM",
+        "PEFT/LoRA",
+        "RLBench"
+      ]
+    },
+    {
+      "name": "Languages and Infrastructure",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Java",
+        "Julia",
+        "R",
+        "JavaScript/TypeScript",
+        "SQL",
+        "Assembly",
+        "LaTeX",
+        "Linux",
+        "Docker",
+        "AWS"
+      ]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Research",
+      "keywords": [
+        "Robotics",
+        "Human–Robot Collaboration",
+        "Vision-Language-Action Models",
+        "LLM Reasoning"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation",
+      "publisher": "arXiv:2610.03516",
+      "releaseDate": "2026-10-02",
+      "website": "https://arxiv.org/abs/2610.03516",
+      "summary": "A geometry-enhanced world action model that learns perception and action streams through cross-task generation."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models",
+      "publisher": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "releaseDate": "2026-09-01",
+      "website": "https://arxiv.org/abs/2602.17951",
+      "summary": "A residual-oriented multi-layer alignment framework for injecting 3D spatial reasoning into VLA models."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines",
+      "publisher": "Transactions on Machine Learning Research (TMLR)",
+      "releaseDate": "2026-04-24",
+      "website": "https://arxiv.org/abs/2604.23001",
+      "summary": "A survey of the data infrastructure supporting Vision-Language-Action models in robotics."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Agent KB: A Hierarchical Memory Framework for Cross-Domain Agentic Problem Solving",
+      "publisher": "ICML 2025 Workshop on Collaborative and Federated Agentic Workflows",
+      "releaseDate": "2025-01-03",
+      "website": "",
+      "summary": "A hierarchical memory framework for cross-domain agentic problem solving."
+    },
+    {
+      "name": "QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation",
+      "publisher": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "A student modeling and simulation approach for question generation and test item analysis."
+    },
+    {
+      "name": "Characterizing Language Use in a Collaborative Situated Game",
+      "publisher": "arXiv:2512.03381",
+      "releaseDate": "2025-12-01",
+      "website": "https://arxiv.org/abs/2512.03381",
+      "summary": "An analysis of situated language use and ad-hoc convention formation in a collaborative 3D environment."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ]
+  "presentations": []
 }

@@ -70,7 +70,8 @@ redirect_from:
         policy sees: one scene overview plus a wrist view per arm. Three coordinating arms
         rearrange coloured blocks across pegboards &mdash; a setting where the hard part is not
         the individual grasp but keeping three end-effectors, three viewpoints, and one shared
-        workspace consistent over a long horizon.
+        workspace consistent over a long horizon. I also wired a unified emergency-stop
+        interlock so all three arms share one safety circuit.
       </p>
       <div class="demo-card__footer">
         <ul class="tag-row">

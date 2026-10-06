@@ -29,35 +29,31 @@ redirect_from:
 - *XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation*  
   **T. Du**, Z. Wang, G. Sun, A. Li.  
   arXiv preprint arXiv:2610.03516, 2026. DOI: [10.48550/arXiv.2610.03516](https://doi.org/10.48550/arXiv.2610.03516)
-- *Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines*  
-  Z. Wang, B. Wang, H. Zhang, **T. Du**, T. Chen, G. Sun, Y. He, Z. Shen, W. Ye, A. Li.  
-  Transactions on Machine Learning Research (TMLR), 2026. DOI: [10.48550/arXiv.2604.23001](https://doi.org/10.48550/arXiv.2604.23001)
 - *ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models*  
   G. Sun, **T. Du**, K. Feng, C. Luo, X. Ding, Z. Shen, Z. Wang, Y. He, A. Li.  
   Advances in Neural Information Processing Systems (NeurIPS), 2026. DOI: [10.48550/arXiv.2602.17951](https://doi.org/10.48550/arXiv.2602.17951)
+- *Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines*<br>
+  Z. Wang, B. Wang, H. Zhang, **T. Du**, T. Chen, G. Sun, Y. He, Z. Shen, W. Ye, A. Li.<br>
+  Transactions on Machine Learning Research (TMLR), 2026. DOI: [10.48550/arXiv.2604.23001](https://doi.org/10.48550/arXiv.2604.23001)
+- *Agent KB: A Hierarchical Memory Framework for Cross-Domain Agentic Problem Solving*<br>
+  X. Tang, T. Qin, T. Peng, Z. Zhou, D. Shao, **T. Du**, X. Wei, H. Zhu, G. Zhang, et al.<br>
+  ICML 2025 Workshop on Collaborative and Federated Agentic Workflows.
 - *QG-SMS: Enhancing Test Item Analysis via Student Modeling and Simulation*  
   B. Nguyen, **T. Du**, M. Yu, L. Angrave, M. Jiang.  
   Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025.
 - *Characterizing Language Use in a Collaborative Situated Game*  
   N. Tomlin, N. Zhou, E. Fleisig, L. Chen, T. Wright, L. Vinh, L.X. Ma, S. Eisape, **T. Du**, T. Zhang, A. Koller, A. Suhr.  
   arXiv preprint arXiv:2512.03381, 2025. DOI: [10.48550/arXiv.2512.03381](https://doi.org/10.48550/arXiv.2512.03381)
-- *Agent KB: A Hierarchical Memory Framework for Cross-Domain Agentic Problem Solving*  
-  X. Tang, T. Qin, T. Peng, Z. Zhou, D. Shao, **T. Du**, X. Wei, H. Zhu, G. Zhang, et al.  
-  ICML 2025 Workshop on Collaborative and Federated Agentic Workflows.
 
 ## Research
 
 - **Trimanual Manipulation** · University of Wisconsin-Madison (Aug. 2026 – Present)  
   Advisor: Prof. Mike Hagenow, Robot Teaching and Teaming (RT²) Lab  
-  Learning coordinated three-arm manipulation policies from demonstration, using synchronized multi-view perception over long-horizon, contact-rich tasks.
+  Learning coordinated three-arm manipulation policies from demonstration, using synchronized multi-view perception over long-horizon, contact-rich tasks. Wired a unified emergency-stop interlock tying all three arms to a single safety circuit.
 
-- **Vision-Language-Action Model Research** · University of Maryland, College Park (Jan. 2026 – Aug. 2026)  
+- **Vision-Language-Action and World Action Models** · University of Maryland (Nov. 2025 – Aug. 2026)<br>
   Advisor: Prof. Ang Li  
-  First-authored XGenAct, a world action model that trains RGB, actions, depth, normals, and role segmentation as RGB videos with one video diffusion transformer. Also worked on multi-layer alignment to bridge 2D and 3D representations in VLA models (ROCKET).
-
-- **Interpretability of LLM Reasoning** · University of Wisconsin-Madison (Sep. 2025 – Jan. 2026)  
-  Advisor: Prof. Yiqiao Zhong  
-  Developed an interpretability framework using token-level KL-divergence to pinpoint where language models correct logical reasoning errors during RLVR training.
+  First-authored XGenAct, a geometry-enhanced world action model, and developed multi-layer shared projection for aligning 2D and 3D representations in VLA models (ROCKET). Deployed and evaluated both systems on real-world manipulation with a UFACTORY xArm.
 
 - **Student Modeling for Question Generation** · University of Notre Dame (Jul. 2024 – Jan. 2025)  
   Advisor: Prof. Meng Jiang  
@@ -69,6 +65,6 @@ redirect_from:
 
 ## Skills
 
-- **Programming Languages:** Python, Java, C++, JavaScript, TypeScript, LaTeX, Julia, R, SQL, Assembly
-- **Frameworks & Tools:** ROS 2, Hugging Face Transformers, PyTorch, vLLM, PEFT/LoRA, Docker, Linux, AWS
-- **Research Areas:** World Action Models, Vision-Language-Action Models, Robotics and Autonomous Systems, Large Language Model Reasoning
+- **Robotics:** ROS 2, UFACTORY xArm, multi-arm workcell bring-up and safety integration, Onshape CAD, 3D printing
+- **Machine Learning:** PyTorch, Hugging Face Transformers, vLLM, PEFT/LoRA, RLBench
+- **Languages & Infrastructure:** Python, C/C++, Java, Julia, R, JavaScript/TypeScript, SQL, Assembly, LaTeX; Linux, Docker, AWS

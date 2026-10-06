@@ -102,7 +102,7 @@ redirect_from:
     <figure class="demo-media demo-media--figure">
       <img
         src="{{ '/images/demos/xgenact-method.png' | relative_url }}"
-        width="1800" height="1391" loading="lazy" decoding="async"
+        width="1800" height="991" loading="lazy" decoding="async"
         alt="XGenAct method: RGB, depth, role segmentation, normals, and actions encoded as RGB videos; a shared DiT trained with one loss; inference that generates future RGB and action images.">
       <span class="demo-media__zoom"><i class="fas fa-expand"></i> Click to enlarge</span>
     </figure>

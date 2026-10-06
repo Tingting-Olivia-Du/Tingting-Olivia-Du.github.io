@@ -14,7 +14,7 @@ redirect_from:
 **Research Interests:** Robotics · Human-Robot Collaboration · Vision-Language-Action Models · LLM Reasoning<br>
 **Updated:** {{ site.time | date: "%Y-%m-%d" }}
 
-[Download CV (PDF)](/files/CV_TingtingDu_UW_Madison.pdf)
+[Download CV (PDF)](/files/TingtingDu_Resume_UW_Madison.pdf)
 
 ## Education
 

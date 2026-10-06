@@ -23,7 +23,7 @@ redirect_from:
     <li><i class="fas fa-location-dot"></i> Madison, WI</li>
   </ul>
   <div class="btn-row">
-    <a class="ui-btn ui-btn--primary" href="{{ '/files/CV_TingtingDu_UW_Madison.pdf' | relative_url }}"><i class="fas fa-file-lines"></i> Curriculum Vitae</a>
+    <a class="ui-btn ui-btn--primary" href="{{ '/files/TingtingDu_Resume_UW_Madison.pdf' | relative_url }}"><i class="fas fa-file-lines"></i> Curriculum Vitae</a>
     <a class="ui-btn" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
     <a class="ui-btn" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i> GitHub</a>
     <a class="ui-btn" href="mailto:tdu35@wisc.edu"><i class="fas fa-envelope"></i> Email</a>

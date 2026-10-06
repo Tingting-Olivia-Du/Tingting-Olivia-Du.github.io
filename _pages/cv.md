@@ -11,6 +11,7 @@ redirect_from:
 
 **Email:** tdu35 [at] wisc [dot] edu  
 **Google Scholar:** [link](https://scholar.google.com/citations?user=j1rY310AAAAJ&hl=en) · **LinkedIn:** [link](https://www.linkedin.com/in/olivia-tingting-du/) · **GitHub:** [Tingting-Olivia-Du](https://github.com/Tingting-Olivia-Du)  
+**Research Interests:** Robotics · Human-Robot Collaboration · Vision-Language-Action Models · LLM Reasoning<br>
 **Updated:** {{ site.time | date: "%Y-%m-%d" }}
 
 [Download CV (PDF)](/files/CV_TingtingDu_UW_Madison.pdf)
@@ -18,11 +19,32 @@ redirect_from:
 ## Education
 
 - **B.S.**, Computer Science and Mathematics, University of Wisconsin-Madison (Jan 2025 – May 2027, expected)  
-  GPA: 3.86/4.00 · Honors: College of Letters & Science Dean's List
-- **Visiting Student**, Computer Science, University of California, Berkeley (2023 – 2024)  
-  GPA: 3.77/4.00 · Honors: Berkeley Global Access Scholarship
-- **Undergraduate**, Linguistics, Ningbo University (2021 – 2023)  
+  GPA: 3.86/4.00 · Dean's List · Coursework: Autonomous Robotics, Operating Systems, Neural Networks
+- **Visiting Student**, Computer Science, University of California, Berkeley (Aug 2023 – Jun 2024)<br>
+  GPA: 3.77/4.00 · Global Access Scholarship · Coursework: Real Analysis, Data Structures, Algorithms, Artificial Intelligence
+- **Undergraduate**, Linguistics, Ningbo University (Sep 2021 – Jun 2023)<br>
   GPA: 3.80/4.00 · Honors: Zhejiang Provincial Scholarship (Top 3%, 2×)
+
+## Research
+
+- **Trimanual Manipulation** · University of Wisconsin-Madison (Aug. 2026 – Present)<br>
+  Advisor: Prof. Mike Hagenow, Robot Teaching and Teaming (RT²) Lab<br>
+  - Learning from demonstration for trimanual human-robot team manipulation.
+  - Wired a unified emergency-stop interlock tying all three arms to a single safety circuit.
+
+- **Vision-Language-Action and World Action Models** · University of Maryland (Nov. 2025 – Aug. 2026)<br>
+  Advisor: Prof. Ang Li, CASE Lab<br>
+  - Developed a multi-layer shared projector bridging 2D and 3D representations in VLA models (NeurIPS 2026).
+  - Developed XGenAct, a geometry-enhanced world action model (under review).
+  - Deployed and evaluated both systems on real-world manipulation with a UFACTORY xArm.
+
+- **Student Modeling for Question Generation** · University of Notre Dame (Jul. 2024 – Jan. 2025)<br>
+  Advisor: Prof. Meng Jiang, DM² Lab<br>
+  - Developed a student modeling approach for question generation (ACL 2025).
+
+- **Situated Language Use and Convention Formation** · University of California, Berkeley (Feb. 2024 – Jun. 2024)<br>
+  Advisor: Prof. Alane Suhr, Berkeley Artificial Intelligence Research<br>
+  - Analyzed ad-hoc convention formation in a large 3D-environment dialogue corpus.
 
 ## Publications
 
@@ -44,24 +66,6 @@ redirect_from:
 - *Characterizing Language Use in a Collaborative Situated Game*  
   N. Tomlin, N. Zhou, E. Fleisig, L. Chen, T. Wright, L. Vinh, L.X. Ma, S. Eisape, **T. Du**, T. Zhang, A. Koller, A. Suhr.  
   arXiv preprint arXiv:2512.03381, 2025. DOI: [10.48550/arXiv.2512.03381](https://doi.org/10.48550/arXiv.2512.03381)
-
-## Research
-
-- **Trimanual Manipulation** · University of Wisconsin-Madison (Aug. 2026 – Present)  
-  Advisor: Prof. Mike Hagenow, Robot Teaching and Teaming (RT²) Lab  
-  Learning coordinated three-arm manipulation policies from demonstration, using synchronized multi-view perception over long-horizon, contact-rich tasks. Wired a unified emergency-stop interlock tying all three arms to a single safety circuit.
-
-- **Vision-Language-Action and World Action Models** · University of Maryland (Nov. 2025 – Aug. 2026)<br>
-  Advisor: Prof. Ang Li  
-  First-authored XGenAct, a geometry-enhanced world action model, and developed multi-layer shared projection for aligning 2D and 3D representations in VLA models (ROCKET). Deployed and evaluated both systems on real-world manipulation with a UFACTORY xArm.
-
-- **Student Modeling for Question Generation** · University of Notre Dame (Jul. 2024 – Jan. 2025)  
-  Advisor: Prof. Meng Jiang  
-  Developed a student modeling approach for question generation. Published at ACL 2025.
-
-- **Situated Language Use** · Berkeley Artificial Intelligence Research (Feb. 2024 – Jun. 2024)  
-  Advisor: Prof. Alane Suhr  
-  Analyzed situated language use and ad-hoc convention formation within a large-scale corpus in a virtual 3D environment.
 
 ## Skills
 

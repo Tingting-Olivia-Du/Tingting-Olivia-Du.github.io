@@ -52,8 +52,8 @@
       "endDate": "2026-08",
       "summary": "Advisor: Prof. Ang Li",
       "highlights": [
-        "Developed multi-layer shared projection for aligning 2D and 3D representations in VLA models (ROCKET, NeurIPS 2026).",
-        "First-authored XGenAct, a geometry-enhanced world action model.",
+        "Developed a multi-layer shared projector bridging 2D and 3D representations in VLA models (NeurIPS 2026).",
+        "Developed XGenAct, a geometry-enhanced world action model (under review).",
         "Deployed and evaluated both systems on real-world manipulation with a UFACTORY xArm."
       ]
     },

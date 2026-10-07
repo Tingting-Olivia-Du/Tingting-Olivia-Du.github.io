@@ -142,7 +142,7 @@ redirect_from:
     <figure class="demo-media demo-media--figure">
       <img
         src="{{ '/images/demos/rocket-overview.png' | relative_url }}"
-        width="1500" height="820" loading="lazy" decoding="async"
+        width="3000" height="1641" loading="lazy" decoding="async"
         alt="ROCKET architecture: a VLA model's residual stream is aligned layer-by-layer with a frozen 3D foundation model through a shared projector, with Matryoshka-style activation, producing end-effector deltas.">
       <span class="demo-media__zoom"><i class="fas fa-expand"></i> Click to enlarge</span>
     </figure>

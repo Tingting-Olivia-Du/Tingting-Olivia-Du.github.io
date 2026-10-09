@@ -32,7 +32,7 @@ redirect_from:
 
 ## Demos
 
-<p class="section-note">A look at what the systems I work on actually do &mdash; one robot, one model.</p>
+<p class="section-note">A look at what the systems I work on actually do.</p>
 
 <div class="demo-stack">
 

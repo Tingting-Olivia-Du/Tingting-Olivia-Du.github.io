@@ -186,7 +186,7 @@ redirect_from:
 <p>
   I currently work with <a href="https://www.cs.wisc.edu/staff/hagenow-mike/">Prof. Mike Hagenow</a>
   in the <a href="https://wisc-rt2.github.io/">Robot Teaching and Teaming (RT&sup2;) Lab</a> at
-  UW&ndash;Madison on <strong>trimanual manipulation</strong>. Previously I worked with
+  UW&ndash;Madison on <strong>trimanual manipulation</strong>. Previously I've been fortunate to work with
   <a href="https://www.ang-li.com/">Prof. Ang Li</a> in the <strong>CASE Lab</strong> at the
   University of Maryland on world action models and Vision-Language-Action models, with
   <a href="http://www.meng-jiang.com/">Prof. Meng Jiang</a> at the

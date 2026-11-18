@@ -18,11 +18,11 @@ redirect_from:
 
 ## Education
 
-- **B.S.**, Computer Science and Mathematics, University of Wisconsin-Madison (Jan 2025 – May 2027, expected)  
+- **B.S.**, Computer Science, University of Wisconsin-Madison (Jan 2025 – May 2027, expected)  
   GPA: 3.86/4.00 · Dean's List · Coursework: Autonomous Robotics, Operating Systems, Neural Networks
 - **Visiting Student**, Computer Science, University of California, Berkeley (Aug 2023 – Jun 2024)<br>
-  GPA: 3.77/4.00 · Global Access Scholarship · Coursework: Real Analysis, Data Structures, Algorithms, Artificial Intelligence
-- **Undergraduate**, Linguistics, Ningbo University (Sep 2021 – Jun 2023)<br>
+  GPA: 3.43/4.00 · Global Access Scholarship · Coursework: Real Analysis, Data Structures, Algorithms, Artificial Intelligence
+- **Undergraduate**, English Linguistics, Ningbo University (Sep 2021 – Jun 2023)<br>
   GPA: 3.80/4.00 · Honors: Zhejiang Provincial Scholarship (Top 3%, 2×)
 
 ## Research
@@ -30,7 +30,7 @@ redirect_from:
 - **Trimanual Manipulation** · University of Wisconsin-Madison (Aug. 2026 – Present)<br>
   Advisor: Prof. Mike Hagenow, Robot Teaching and Teaming (RT²) Lab<br>
   - Learning from demonstration for trimanual human-robot team manipulation.
-  - Wired a unified emergency-stop interlock tying all three arms to a single safety circuit.
+  - Deployed and maintained a three-arm robotic workcell, including system bring-up and safety integration.
 
 - **Vision-Language-Action and World Action Models** · University of Maryland (Nov. 2025 – Aug. 2026)<br>
   Advisor: Prof. Ang Li, CASE Lab<br>
@@ -69,6 +69,6 @@ redirect_from:
 
 ## Skills
 
-- **Robotics:** ROS 2, UFACTORY xArm, multi-arm workcell bring-up and safety integration, Onshape CAD, 3D printing
+- **Robotics:** ROS 2, UFACTORY xArm, three-arm workcell deployment, operations, and maintenance, Onshape CAD, 3D printing
 - **Machine Learning:** PyTorch, Hugging Face Transformers, vLLM, PEFT/LoRA, RLBench
 - **Languages & Infrastructure:** Python, C/C++, Java, Julia, R, JavaScript/TypeScript, SQL, Assembly, LaTeX; Linux, Docker, AWS

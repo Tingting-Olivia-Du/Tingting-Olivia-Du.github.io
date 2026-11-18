@@ -12,7 +12,7 @@ redirect_from:
   <p class="hero__eyebrow">Robot Learning &middot; Vision-Language-Action</p>
   <h1 class="hero__name">Tingting Du</h1>
   <p class="hero__lede">
-    B.S. student in <strong>Computer Science and Mathematics</strong> at the
+    B.S. student in <strong>Computer Science</strong> at the
     <strong>University of Wisconsin&ndash;Madison</strong>. I build robot learning systems
     that connect language, perception, and physical action &mdash; currently on
     <strong>trimanual manipulation</strong> in the RT&sup2; Lab.
@@ -178,7 +178,7 @@ redirect_from:
 
 <p>
   I am an undergraduate at the <strong>University of Wisconsin&ndash;Madison</strong>, studying
-  Computer Science and Mathematics. Before Madison I was a visiting student in Computer Science
+  Computer Science. Before Madison I was a visiting student in Computer Science
   at <strong>UC Berkeley</strong>, and I began my studies in Linguistics at
   <strong>Ningbo University</strong>.
 </p>
@@ -347,7 +347,7 @@ redirect_from:
     <span class="edu-list__when">Jan 2025 &ndash; May 2027</span>
     <span class="edu-list__what">
       <strong>University of Wisconsin&ndash;Madison</strong>
-      <span>B.S. in Computer Science and Mathematics (expected)</span>
+      <span>B.S. in Computer Science (expected)</span>
     </span>
   </li>
   <li>

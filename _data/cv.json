@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Tingting Du",
-    "label": "Computer Science and Mathematics undergraduate at UW–Madison",
+    "label": "Computer Science undergraduate at UW–Madison",
     "email": "tdu35@wisc.edu",
     "phone": "",
     "website": "https://tingting-olivia-du.github.io/",
@@ -41,7 +41,7 @@
       "summary": "Advisor: Prof. Mike Hagenow",
       "highlights": [
         "Learning from demonstration for trimanual human–robot team manipulation.",
-        "Wired a unified emergency-stop interlock tying all three arms to a single safety circuit."
+        "Deployed and maintained a three-arm robotic workcell, including system bring-up and safety integration."
       ]
     },
     {
@@ -83,7 +83,7 @@
   "education": [
     {
       "institution": "University of Wisconsin–Madison",
-      "area": "B.S. in Computer Science and Mathematics",
+      "area": "B.S. in Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2025-01",
       "endDate": "2027-05 (expected)",
@@ -100,7 +100,7 @@
       "studyType": "Visiting Student",
       "startDate": "2023-08",
       "endDate": "2024-06",
-      "gpa": "3.77/4.00",
+      "gpa": "3.43/4.00",
       "courses": [
         "Real Analysis",
         "Data Structures",
@@ -110,7 +110,7 @@
     },
     {
       "institution": "Ningbo University",
-      "area": "Undergraduate studies in Linguistics",
+      "area": "Undergraduate studies in English Linguistics",
       "studyType": "Undergraduate",
       "startDate": "2021-09",
       "endDate": "2023-06",
@@ -125,7 +125,7 @@
       "keywords": [
         "ROS 2",
         "UFACTORY xArm",
-        "Multi-arm workcell bring-up and safety integration",
+        "Three-arm workcell deployment, operations, and maintenance",
         "Onshape CAD",
         "3D printing"
       ]
